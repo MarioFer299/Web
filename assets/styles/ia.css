@@ -1,0 +1,81 @@
+body{
+    background-image: url("../../ia-cv/static/imagenes/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+center{
+    width: 70%;
+    margin: 40px auto;
+    background: rgba(0, 0, 0, 0.65);
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+h1{
+    color: #ff2d2d;
+    font-size: 40px;
+    text-shadow: 2px 2px 6px black;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: #00d9ff;
+    border-bottom: 2px solid #00d9ff;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+p,
+ul{
+    color: white;
+    width: 80%;
+    margin: 15px auto;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 20px cyan;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+li{
+    margin: 8px 0;
+}
+
+strong,
+em{
+    color: #ffd700;
+}
+
+a{
+    color: #00ffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+hr{
+    width: 80%;
+    border: 1px solid white;
+}
